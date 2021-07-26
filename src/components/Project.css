@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Otomanopee+One&display=swap');
+
+:root {
+    --clr-pink:#FF44CC;
+    --clr-electric-blue: #93faff;
+    --clr-honeydew: #a1e7a1;
+    --clr-drk-blue: #85c0e2;
+    --clr-yellow: #FAF32D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card-item p {
+    max-width: 65ch;
+    margin: 0 auto;
+}
+
+.card-item h3 {
+    color: white;
+}
+
+.card-item {
+    width: 85%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+    margin-left: .5em;
+}
+
+.card-item li {
+    display: inline;
+}
+
+.card-wrapper {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-text-wrapper p {
+    padding: .5em 7em;
+    font-size: 1.2em;
+}
+
+.text-blue {
+    color: var(--clr-electric-blue);
+}
+
+.text-white {
+    color: white;
+}
+
+.card-item h3 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.card-wrapper a {
+    color: var(--clr-pink);
+    text-decoration: none;
+    
+}
+
+@media (max-width: 900px) {
+
+    section#projects h2 {
+        font-size: 60px;
+        margin: 0 auto;
+        padding-left: 1.6em;
+    }
+    .card-item {
+        width: 95%;
+        padding-left: .2em;
+        height: 70%;
+    }
+
+    .card-item h3 {
+        font-size: 1em;
+        margin: 0 auto;
+        padding-top: 3em;
+    }
+
+    .card-item h2 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .header {
+        margin: 0 auto;
+    }
+
+    .card-item p {
+        padding: .5em .5em;
+        line-height: 1em;
+    }
+
+}

@@ -1,0 +1,90 @@
+.subtile {
+    padding: 1em 1em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+}
+
+.subtile h3,
+.subtile h4 {
+    text-align: center;
+    max-width: 35ch;
+    padding: 0 2em;
+}
+
+.contact-wrapper {
+    display: flex;
+    background: white;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-top: 10em;
+    min-height: 5em;
+}
+
+.subtile a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+    transition: font-size 200ms ease;
+}
+
+.subtile a:hover {
+    opacity: .8;
+} 
+
+i {
+    font-size: 2em;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 15em;
+}
+
+.text-large {
+    font-size: 60px;
+}
+
+.text-white {
+    color: white;
+}
+
+section#contact {
+    height: 100vh;
+}
+
+.linked-in {
+    color: royalblue;
+}
+
+
+@media (max-width: 900px) {
+    section#contact h2 {
+        font-size: 60px;
+        margin: 0 auto;
+        padding-left: .9em;
+        padding-top: 2em;
+    }
+
+    .contact-wrapper {
+        width: 80%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    section#contact h3 {
+        font-size: 1em;
+    }
+
+    section#contact h4 {
+        font-size: .8em;
+    }
+
+    .subtile {
+        padding: .3em;
+    }
+}

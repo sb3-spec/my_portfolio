@@ -1,0 +1,26 @@
+section#projects {
+    min-height: 100vh;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+    .projects ul {
+        flex-direction: column;
+    }
+
+    .projects {
+        margin-top: auto;
+    }
+}
