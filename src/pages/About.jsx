@@ -24,7 +24,7 @@ const About = () => {
                             <p>
                                 Currently, I am more practiced with Front-end development; however, I am ultimately more
                                 interested in back end programming, and seek to expand my understanding of the subject. I regularly use React,
-                                JavScript, CSS, HTML and python. Recemly, i was able to build a fully functional online store using the Commerce.js
+                                JavScript, CSS, HTML and python. Recently, i was able to build a fully functional online store using the Commerce.js
                                 API.
                             </p>
                             <br />

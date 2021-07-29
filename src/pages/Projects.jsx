@@ -31,6 +31,18 @@ const Projects = () => {
                         RESTful API Consumption, Material UI, Node.js, Git"
                         path="https://www.shoprobert.com/"
                     />
+                    <Project 
+                        title="Google Docs Clone"
+                        src='../assets/gdocs_2.png'
+                        alt="overview of google docs clone document"
+                        description="Built a working clone of a Google Docs document that is fully functional. Using socket.io
+                        and Node.js, the page is able to be worked on b multiple users and is saved every 2 seconds into 
+                        a MongoDB database. Furthermore, changes will be reflected across multiple instances 
+                        of the page."
+                        skills="MongoDB, Socket.io, React, HTML, CSS, JavaScript, 
+                        RESTful API Consumption, Node.js, Git"
+                        path="https://github.com/sb3-spec/google-docs-clone"
+                    />
                 </ul>
             </section>
         </div>
