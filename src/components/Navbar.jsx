@@ -44,7 +44,7 @@ const Navbar = () => {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                        >Contact</Link>
+                        >Info</Link>
                     </li>
                 </ul>
             </div>

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&family=Unna&display=swap');
+
+:root {
+    --var-font-classic: 'Recursive', sans-serif;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 1000;
+    background-color: #FFF;
+    width: 80%;
+    transition: 200ms ease-in-out;
+}
+
+.modal-container.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 10px 15px;
+    display: flex;
+    min-height: 50em;
+}
+
+.modal-body__text {
+    border-left: solid 1px black;
+    padding-left: 1em;
+    font-family: var(--var-font-classic);
+    font-size: 1.2rem;
+    max-width: 40ch;
+}
+
+.paragraph {
+    margin-bottom: 1em;
+}
+
+.modal-body__img {
+    width: 180em;
+}
+
+.modal-body__img img{
+    padding-right: 1em;
+    object-fit: cover;
+}
+
+.position-left {
+    object-position: left;
+}
+
+.overlay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .6);
+    pointer-events: none;
+}
+
+.overlay.active {
+    pointer-events: all;
+    opacity: 1;
+}
+
+.link__container a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 500;
+}
+
+.link__container a:hover {
+    color: rgb(110, 110, 197);
+}
+
+@media (max-width: 800px) {
+    .modal-body__img {
+        display: none;
+    }
+}

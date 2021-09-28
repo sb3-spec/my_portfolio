@@ -1,0 +1,8 @@
+.popup_wrapper {
+    position: absolute;
+    left: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: smaller;
+    justify-content: center;
+}
