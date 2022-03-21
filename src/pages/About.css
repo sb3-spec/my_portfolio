@@ -48,7 +48,6 @@ section#about {
     height: 90%;
     width: 40%;
     padding: .9em;
-    padding-top: .2em;
     opacity: 1;
 }
 
@@ -83,11 +82,13 @@ img {
 }
 
 @media all and (max-width: 800px) {
+
     .content-wrapper {
         flex-direction: column;
         width: 95%;
         margin-right: 0;
         margin-left: .7em;
+        min-height: 100em;
     }
     
     .tile-1 {
@@ -101,7 +102,7 @@ img {
         width: 90%;
         padding-top: 0;
         line-height: 1em;
-
+        min-height: auto;
     }
 
     section#about h3 {
@@ -109,7 +110,14 @@ img {
         padding-bottom: .5em;
     }
 
-    .body-wrapper p {
-        font-size: .9em;
+    .body-wrapper {
+        min-height: 50em;
     }
+
+    .body-wrapper p {
+        font-size: 1.5em;
+        line-height: 2em;
+    }
+
+
 }

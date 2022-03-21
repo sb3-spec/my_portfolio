@@ -4,15 +4,24 @@ section#projects {
 
 .projects {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     display: inline;
     align-items: center;
     justify-content: center;
 }
 
+
 .projects ul {
     display: flex;
     flex-wrap: wrap;
+}
+
+.projects ul p {
+    margin-left: 245px;
+}
+
+.projects h2 {
+    text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -20,7 +29,12 @@ section#projects {
         flex-direction: column;
     }
 
+    .projects ul p {
+        margin-left: 30px;
+    }
+
     .projects {
         margin-top: auto;
     }
+
 }

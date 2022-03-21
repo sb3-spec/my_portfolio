@@ -33,7 +33,8 @@ const Project = (props) => {
             src={props.src} text1={props.text1} 
             text2={props.text2} title={props.title} 
             path={props.path} 
-            live={props.live}/>
+            live={props.live}
+            gitPath={props.github}/>
             
         </>
     );

@@ -19,7 +19,7 @@
 
 .card-img-wrapper img {
     min-height: 300px;
-    width: 500px;
+    width: 400px;
     transition: 200ms ease-in-out;
     cursor: pointer;
     object-fit: cover;

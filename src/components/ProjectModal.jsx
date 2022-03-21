@@ -2,7 +2,7 @@ import React from 'react';
 import './ModalStyles.css';
 import ReactDom from 'react-dom';
 
-const ProjectModal = ({ projectId, isOpen, closeModal, text1, text2, src, alt, title, path, live }) => {
+const ProjectModal = ({ projectId, isOpen, closeModal, text1, text2, src, alt, title, path, live, github }) => {
 
     if(!isOpen) return null;
 
@@ -28,6 +28,7 @@ const ProjectModal = ({ projectId, isOpen, closeModal, text1, text2, src, alt, t
                         </div>
                         <div className="link__container">
                             {live ? <a target="_blank" rel="noreferrer" href={path}>Visit Site</a> : <a target="_blank" rel="noreferrer" href={path}>Github Repository</a>}
+                            {live && github && <a target="_blank" rel="noreferrer" href={github}>Visit Github Repo</a>}
                         </div>
                     </div>
                 </div>

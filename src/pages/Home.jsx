@@ -9,7 +9,7 @@ const Home = () => {
                     <h1>Robert Sheffield</h1>
                 </div>
                 <div className="title-2"> 
-                    <h2>Web Developer</h2>
+                    <h2>Fullstack Developer</h2>
                 </div>
                 <div className="neon-button">
                     <Link

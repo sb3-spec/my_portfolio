@@ -1,9 +1,12 @@
 .subtile {
     padding: 1em 1em;
+    padding-top: 3em;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 200px;
+    min-height: 80%;
+    position: relative;
 }
 
 .subtile h3,
@@ -11,6 +14,12 @@
     text-align: center;
     max-width: 35ch;
     padding: 0 2em;
+    padding: 0;
+}
+
+.info_text:hover {
+    cursor: pointer;
+    color: #6a6ad1;
 }
 
 .contact-wrapper {
@@ -20,8 +29,9 @@
     justify-content: center;
     align-items: center;
     width: 60%;
-    margin-top: 10em;
+    margin-top: 3em;
     min-height: 5em;
+    text-align: center;
 }
 
 .subtile a {
@@ -42,7 +52,7 @@ i {
 .container {
     justify-content: center;
     align-items: center;
-    margin-top: 15em;
+    margin-top: 5em;
 }
 
 .text-large {
@@ -54,7 +64,7 @@ i {
 }
 
 section#contact {
-    height: 100vh;
+    height: 20vh;
 }
 
 .linked-in {
@@ -65,9 +75,14 @@ section#contact {
 @media (max-width: 900px) {
     section#contact h2 {
         font-size: 60px;
-        margin: 0 auto;
-        padding-left: .9em;
-        padding-top: 2em;
+        margin: 0;
+        padding-left: 3.45em;
+    }
+
+    .contact-header {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .contact-wrapper {
@@ -77,11 +92,11 @@ section#contact {
     }
 
     section#contact h3 {
-        font-size: 1em;
+        font-size: 1.7em;
     }
 
     section#contact h4 {
-        font-size: .8em;
+        font-size: 1em;
     }
 
     .subtile {
