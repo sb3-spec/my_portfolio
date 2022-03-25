@@ -73,7 +73,7 @@ const Contact = () => {
                     <div className="subtile">
                         <h3>Resume</h3>
                         <h4><a 
-                        href="https://dochub.com/sheffira2/Dbd3xkWVe2y8WNLw49AYlz/robert-sheffield-resume-pdf" 
+                        href="https://drive.google.com/file/d/1CN8LLzwPAbRd2OPexJIYFZOKzRTCp6Gd/view" 
                         target="_blank"
                         rel="noreferrer"
                         ><i className="far fa-file-pdf"></i></a></h4>
