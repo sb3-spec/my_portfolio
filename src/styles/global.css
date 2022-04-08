@@ -1,0 +1,103 @@
+:root {
+    --color-blue: #03A89E;
+    --color-orange: #c4562e;
+    --color-eggshell: #ECD5BB;
+    --color-grey-blue: #5885AF;
+    --color-midnight: #41729F;
+    --color-red: #74112F;
+    --color-dark-blue: #1f1f49;
+    --color-baby-blue: #9bd6e0;
+    --color-teal: #016367;
+}
+
+.stack__outer {
+    min-width: 400px;
+    max-width: 1050px;
+    background-color: var(--color-teal);
+    margin: 0 auto;
+    border-radius: 5px;
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.stack-title {
+    font-size: 5em;
+}
+
+.stack-header {
+    background-color: var(--color-baby-blue)
+}
+
+
+.tech-slice-list {
+    list-style: none;
+}
+
+.tech-slice-list > li {
+    margin-left: 0em;
+    max-height: 300px;
+    padding: 1em 2em;
+    flex: 1 1 33%;
+}
+
+.stack__inner {
+    text-align: center;
+}
+
+.stack-container {
+    display: flex;
+    margin: 0em auto;
+    margin-bottom: 0;
+    text-align: center;
+    max-width: 1200px;
+    min-width: 400px;
+}
+
+.front-container {
+    min-width: 35%;
+    background-color: var(--color-midnight)
+}
+
+.stack-sub-header {
+    background-color: var(--color-grey-blue);
+    color: black;
+}
+
+.blue {
+    background-color: var(--color-midnight)
+}
+
+.back-container {
+    min-width: auto;
+    background-color: var(--color-midnight);
+    color: black;
+}
+
+
+.sub-container {
+    min-width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.back {
+    background-color: var(--color-baby-blue);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.height-standard {
+    min-height: 450px;
+}
+
+.tech-slice {
+    margin-top: 0em;
+}
+
+
+.tech-icon-img {
+    max-width: 10em;
+    margin: 0 auto;
+}
+
