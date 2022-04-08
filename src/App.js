@@ -1,9 +1,6 @@
-import Navbar from './components/Navbar';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Home from './pages/Home';
-import Projects from './pages/Projects';
-import Stack from './pages/Stack';
+import Main from './pages/Main'
+import Resume from './pages/resume';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import './styles/global.css'
 import "./App.css";
@@ -11,14 +8,14 @@ import "./App.css";
 
 const App = () => {
     return (
-        <div className="master-wrapper">
-            <Navbar />
-            <Home />
-            <Stack />
-            <About />
-            <Projects />
-            <Contact />
-        </div>
+        <>
+            <Router>
+                <Routes>
+                    <Route path="/" element={<Main />} />
+                    <Route path="resume" element={<Resume />} />
+                </Routes>
+            </Router>
+        </>
     )
 }
 

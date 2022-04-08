@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import "./Contact.css";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import Popup from "../components/Popup";
@@ -35,7 +36,7 @@ const Contact = () => {
                         <div className="copy_container">
                             <CopyToClipboard 
                                 text="sheffira2@gmail.com" 
-                                onCopy = {handleCopy}
+                                onCopy={handleCopy}
                             >
                                 <h4 className="info_text">sheffira2@gmail.com</h4>
                             </CopyToClipboard>
@@ -72,11 +73,7 @@ const Contact = () => {
                     </div>
                     <div className="subtile">
                         <h3>Resume</h3>
-                        <h4><a 
-                        href="https://drive.google.com/file/d/1CN8LLzwPAbRd2OPexJIYFZOKzRTCp6Gd/view" 
-                        target="_blank"
-                        rel="noreferrer"
-                        ><i className="far fa-file-pdf"></i></a></h4>
+                        <h4><a href="https://www.keepandshare.com/doc29/115040/robert-sheffield-resume-pdf-213k?da=y"><i className="far fa-file-pdf"></i></a></h4>
                     </div>
                 </div>
             </section>

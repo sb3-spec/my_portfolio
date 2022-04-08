@@ -18,7 +18,7 @@ const Projects = () => {
                             skills="React, Django Rest Framework, HTTP, postgreSQl, APIs, Fullstack Development, Git, Continuous Deployment"
                             github="https://github.com/sb3-spec"
                             path="https://dreamy-aryabhata-f7d882.netlify.app/"
-                            text1="The culmination of months of work, my twitter clone,  cleverly dubbed 'Worse Twitter,'
+                            text1="The culmination of months of work, my twitter clone, cleverly dubbed 'Worse Twitter,'
                             utilizes many modern technologies to deliver a robust social media site. On the backend I used the Django
                             Rest Framework(DRF) with postgreSQL as my database. One of my biggest take aways was the versatility of the DRF; 
                             once I got a basic understanding of the layout and syntax, developing api endpoints became a breeze. This was all 
@@ -29,7 +29,7 @@ const Projects = () => {
                             live={true}
                         />
                     <Project
-                            title="Robcord"
+                            title="Discord Clone"
                             src='../assets/robcord.png'
                             alt="overview of my discord like chat app, Robcord"
                             skills="Backend Development, Socket.io, Node.js, React, API Consumption, Git"
