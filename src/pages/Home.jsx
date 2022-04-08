@@ -14,7 +14,7 @@ const Home = () => {
                 <div className="neon-button">
                     <Link
                         activeClass="active"
-                        to="about"
+                        to="stack"
                         spy={true}
                         smooth={true}
                         offset={-70}
