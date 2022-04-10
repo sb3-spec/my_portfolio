@@ -1,6 +1,7 @@
 :root {
     --clr-pink:#FF44CC;
     --clr-electric-blue: #7DF9FF;
+    --clr-pastel-green: #1FFF0F;
 }
 
 .navbar {
@@ -23,13 +24,17 @@
     justify-content: center;
 }
 
-.navbar ul li {
+.navbar ul > li {
     margin: .5rem .5rem;
     padding: .5rem;
     text-transform: uppercase;
     border-radius: 1px;
     color: #fff;
     cursor: pointer;
+}
+
+.navbar-item:hover {
+    color: var(--clr-pastel-green)
 }
 
 .navbar ul li > .active {

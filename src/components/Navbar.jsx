@@ -5,8 +5,8 @@ const Navbar = () => {
     return (
         <>
             <div className='navbar'>
-                <ul>
-                    <li>
+                <ul className="navbar-list">
+                    <li className="navbar-item">
                         <Link
                             activeClass="active"
                             to="home"
@@ -16,7 +16,7 @@ const Navbar = () => {
                             duration={500}
                         >Home</Link>
                     </li>
-                    <li>
+                    <li className="navbar-item">
                         <Link
                             activeClass="active"
                             to="stack"
@@ -26,7 +26,7 @@ const Navbar = () => {
                             duration={500}
                         >Stack</Link>
                     </li>
-                    <li>
+                    <li className="navbar-item">
                         <Link
                             activeClass="active"
                             to="about"
@@ -36,7 +36,7 @@ const Navbar = () => {
                             duration={500}
                         >About</Link>
                     </li>
-                    <li>
+                    <li className="navbar-item">
                         <Link
                             activeClass="active"
                             to="projects"
@@ -46,7 +46,7 @@ const Navbar = () => {
                             duration={500}
                         >Projects</Link>
                     </li>
-                    <li>
+                    <li className="navbar-item">
                         <Link
                             activeClass="active"
                             to="contact"
@@ -54,7 +54,7 @@ const Navbar = () => {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                        >Info</Link>
+                        >Contact & Links</Link>
                     </li>
                 </ul>
             </div>

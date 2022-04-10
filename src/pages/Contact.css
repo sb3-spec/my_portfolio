@@ -1,37 +1,57 @@
+.contact-item:hover {
+    background-color: rgb(0 0 0 / .1);
+    color: black;
+    cursor: pointer;
+}
+
 .subtile {
-    padding: 1em 1em;
-    padding-top: 3em;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 200px;
-    min-height: 80%;
     position: relative;
+    max-width: 500px;
+    max-height: 70px;
+    padding: 2em 4em;
+}
+
+section#contact {
+    display: flex;
+    max-height: 0;
+    min-height: 94vh !important;
 }
 
 .subtile h3,
 .subtile h4 {
     text-align: center;
-    max-width: 35ch;
-    padding: 0 2em;
-    padding: 0;
+    
 }
 
-.info_text:hover {
-    cursor: pointer;
-    color: #6a6ad1;
-}
-
-.contact-wrapper {
-    display: flex;
+.contact-wrapper { 
+    max-height: 500px;
+    flex: wrap;
     background: white;
     border-radius: 6px;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    min-width: 300px;
+    max-width: 600px;
     margin-top: 3em;
-    min-height: 5em;
+    min-height: 20em;
     text-align: center;
+}
+
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100%;
+    min-height: 500px;
+}
+
+.contact-item {
+    list-style: none;
+    max-height: 200px;
+    min-width: 300px;
+    transition: all 300ms ease-in-out;
 }
 
 .subtile a {
@@ -47,12 +67,17 @@
 
 i {
     font-size: 2em;
+    color: inherit;
 }
 
 .container {
     justify-content: center;
     align-items: center;
     margin-top: 5em;
+}
+
+.nav-container {
+    margin-top: 1em;
 }
 
 .text-large {
@@ -64,11 +89,27 @@ i {
 }
 
 section#contact {
-    height: 20vh;
+    height: auto;
 }
 
 .linked-in {
     color: royalblue;
+}
+
+.border-radius-upper-right {
+    border-radius: 0 5px 0 0;
+}
+
+.border-radius-upper-left {
+    border-radius: 5px 0 0 0;
+}
+
+.border-radius-lower-left {
+    border-radius: 0 0 0 5px;
+}
+
+.border-radius-lower-right {
+    border-radius: 0 0 5px 0;
 }
 
 

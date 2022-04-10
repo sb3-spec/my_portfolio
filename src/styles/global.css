@@ -10,6 +10,10 @@
     --color-teal: #016367;
 }
 
+.contact-section {
+    margin-bottom: 5em;
+}
+
 .stack__outer {
     min-width: 400px;
     max-width: 1050px;
