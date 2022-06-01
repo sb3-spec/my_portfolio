@@ -83,7 +83,7 @@ const Contact = () => {
                         <li className="contact-item border-radius-lower-left">
                             <div className="subtile">
                                 <h3>Resume</h3>
-                                <h4><a href="https://www.keepandshare.com/doc29/115040/robert-sheffield-resume-pdf-213k?da=y" target="_blank" rel="noreferrer"><i className="far fa-file-pdf"></i></a></h4>
+                                <h4><a href="https://pdf.ac/dpfLJ" target="_blank" rel="noreferrer"><i className="far fa-file-pdf"></i></a></h4>
                             </div>
                         </li>
                     </ul>
